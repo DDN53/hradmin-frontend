@@ -1,0 +1,36 @@
+.clients-and-reasons {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  padding: 20px;
+}
+
+.clients-and-reasons > * {
+  flex: 1;
+
+  margin: 0 10px;
+}
+@media (max-width: 320px) {
+  .clients-and-reasons {
+    width: 395%;
+  }
+}
+@media (min-width: 370px) and (max-width: 429px) {
+  .clients-and-reasons {
+    min-width: 460%;
+    font-size: 24px;
+  }
+  .trusted-client {
+    width: 100%;
+  }
+}
+@media (min-width: 430px) and (max-width: 768px) {
+  .clients-and-reasons {
+    width: 444%;
+    padding: 87px;
+  }
+}

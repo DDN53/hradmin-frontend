@@ -1,0 +1,11 @@
+export { default as Header } from "./Home/Header";
+export { default as Slider } from "./Home/Slider";
+export { default as Wellcome } from "./Home/wellcome";
+export { default as Footer } from "./Home/Footer";
+export { default as Service } from "./Home/Service";
+export { default as Stats } from "./Home/Stats";
+export { default as News } from "./Home/News";
+export { default as ClientReason } from "./Home/ClientAndReasons";
+export { default as WhyChooseUs } from "./Home/WhyCooseUs";
+export { default as TrustedClient } from "./Home/TrustedClient";
+export { default as ClientLogo } from "./Home/ClientLogos";

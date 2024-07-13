@@ -1,0 +1,91 @@
+trusted-clients {
+  text-align: center;
+  padding: 20px;
+}
+
+.trusted-clients h2 {
+  font-size: 24px;
+  margin-left: 2%;
+}
+
+.trusted-clients p {
+  font-size: 14px;
+  color: gray;
+  margin-left: 2%;
+}
+
+.testimonial {
+  background-color: #eeeeee;
+  padding: 20px;
+  margin: 20px 15px;
+  position: relative;
+  max-width: 600px;
+}
+
+.clien-info {
+  padding: 3%;
+}
+
+.quote-icon {
+  position: absolute;
+  background-color: #a91705;
+
+  color: white;
+
+  font-size: 3em;
+
+  min-width: 50px;
+
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: -7%;
+  top: 27%;
+}
+
+.testimonial p {
+  font-size: 16px;
+  color: #333;
+}
+
+.author {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.position {
+  color: gray;
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+.navigation button {
+  background-color: white;
+  color: black;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+.margin-left {
+  margin-left: 3.4%;
+  background-color: #fcfcfc;
+  color: black;
+}
+.trusted-clients-heading {
+  margin-bottom: 10px;
+}
+
+.trusted-clients-paragraph {
+  margin-top: 10px;
+  color: #d4d4d4;
+}
+@media (max-width: 320px) {
+  .testimonial {
+    padding: 16px;
+  }
+}

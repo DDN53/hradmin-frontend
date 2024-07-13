@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  min-height: 200px;
+  background-color: #ffffff;
+}
+@media (max-width: 320px) {
+  .container {
+    width: 100%;
+    min-height: 150px;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  .container {
+    width: 90%;
+    min-height: 450px;
+  }
+}

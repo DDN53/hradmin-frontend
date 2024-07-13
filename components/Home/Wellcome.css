@@ -1,0 +1,112 @@
+.wellcome {
+  display: flex;
+  flex-direction: row;
+  min-height: 200px;
+  background-color: white;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  margin-left: -16%;
+  min-width: 870px;
+}
+
+.images img {
+  min-width: 60%;
+  display: block;
+}
+
+.content {
+  margin-top: -5%;
+  margin-left: -15%;
+  flex-basis: 30%;
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #999999;
+}
+
+.statistic {
+  background-color: #ff7b00;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.statistic-number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #f5f5f5;
+  color: #83a1a6;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.paragrap {
+  margin-top: 5%;
+}
+
+.text-with-line-space {
+  line-height: 1.3;
+}
+
+.orange-text {
+  color: #f6a590;
+}
+@media (max-width: 320px) {
+  .wellcome {
+    width: 450%;
+    padding: 7px 20px;
+  }
+  .content {
+    margin-left: -6%;
+  }
+  .images img {
+    margin-left: 14%;
+  }
+}
+@media (min-width: 375px) and (max-width: 429px) {
+  .wellcome {
+    width: 467%;
+  }
+  .content {
+    margin-left: 11%;
+  }
+  .images img {
+    margin-left: 36%;
+  }
+  .content p {
+    font-size: 20px;
+  }
+  .our-service {
+    min-width: 900px;
+  }
+}
+@media (min-width: 430px) and (max-width: 768px) {
+  .wellcome {
+    width: 536%;
+    min-height: 500px;
+  }
+  .content {
+    margin-left: -12%;
+  }
+}
